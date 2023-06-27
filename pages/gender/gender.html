@@ -1011,6 +1011,44 @@
           
           @media only screen and (min-width: 961px){
         }
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+      html {
+        font-family: 'Open Sans', sans-serif;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      /* ================= */
+      /*      DESKTOP      */
+      /* ================= */
+      @media only screen and (min-width: 961px) {
+        body {
+          /* background-image: url('../images/background-image.jpg'); */
+          position: relative;
+          min-height: 100%;
+        }
+      }
+      /* ================= */
+      /*      Tablet       */
+      /* ================= */
+      @media only screen and (max-width: 960px) {
+        #upwrapper {
+          max-width: 960px;
+          height: auto;
+          margin: 0 auto;
+          background-repeat: no-repeat;
+        }
+      }
     </style>
   
   
@@ -1019,12 +1057,12 @@
        <div class="max-450">
         <h3>Select <u>Gender</u></h3>
         <div class="your_gender"> 
-            <a href="pages/final-page/final-page-woman.html">
-                <img src="/images/sex_man-active.svg" alt="">
+            <a href="../final-page/final-page-woman.html">
+                <img src="../images/sex_man-active.svg" alt="">
                 <p>Man</p>
             </a>
-            <a href="pages/final-page/final-page-woman.html">
-                <img src="/images/sex_woman-active.svg" alt="">
+            <a href="../final-page/final-page-woman.html">
+                <img src="../images/sex_woman-active.svg" alt="">
                 <p>Woman</p>
             </a>
         </div>

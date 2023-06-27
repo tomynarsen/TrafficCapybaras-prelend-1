@@ -1029,6 +1029,45 @@
             
             @media only screen and (min-width: 961px){
           }
+          @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+      html {
+        font-family: 'Open Sans', sans-serif;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      /* ================= */
+      /*      DESKTOP      */
+      /* ================= */
+      @media only screen and (min-width: 961px) {
+        body {
+          /* background-image: url('../images/background-image.jpg'); */
+          position: relative;
+          min-height: 100%;
+        }
+      }
+      /* ================= */
+      /*      Tablet       */
+      /* ================= */
+      @media only screen and (max-width: 960px) {
+
+        #upwrapper {
+          max-width: 960px;
+          height: auto;
+          margin: 0 auto;
+          background-repeat: no-repeat;
+        }
+      }
       </style>
     
 
@@ -1049,7 +1088,7 @@
             <div class="page page-break page-one">
             <h2 class="page__title" id="natal_map">Personality horoscope</h2>
             <h3 class="page__subtitle">Your natal chart</h3>
-            <img class="natal_map" src="/images/AQUARIUS-transformed.png">
+            <img class="natal_map" src="../images/AQUARIUS-transformed.png">
             <div class="free-info">
             <p><span class="big">Your natal chart is full of positive moments. You have a good time and place of birth, which promises a happy and secure life, if you know how to use your innate abilities. At the same time, we also see negative moments, possible losses and financial difficulties.</p>
             <p>In our horoscope, you will learn how to use your innate potential and what you need to do to avoid negative events.</p>
@@ -1190,7 +1229,7 @@
             </p><ul class="ul-star" style="text-align:left;"><li>Interpretation of 12 elements of your natal chart</li><li>Your future</li><li>Your purpose </li><li>Your uniqueness</li><li>What drives you</li></ul>
             Inside the book are answers to the most intimate questions about the future, financial well-being and personal life<p></p>
             <div class="img">
-            <img class="pdf__img js-show-preview" src="/images/NATAL CHART.png" alt="pdf">
+            <img class="pdf__img js-show-preview" src="../images/NATAL CHART.png" alt="pdf">
             </div>
             <p>Get a complete horoscope and start managing your life</p>
             <a class="btn btn--full" style="width: 100%" href="/checkout?step=2&amp;utm_demo=step_end">Open a complete horoscope for 15.99 USD<i class="fico fico-arrowBtn"></i></a>
